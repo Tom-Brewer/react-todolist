@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(39, 214, 205);
+}
+
+.App {
+    margin: 200px;
+    padding: 60px;
+    max-width: 50%;
+    background-color: cadetblue;
+}
+
+h1 {
+    color: rgb(143, 0, 0);
+}
+
+#top{ 
+    display: flex;
+    justify-content: center;
+
+}
+
+#addBtn {
+    background-color: burlywood;
+    width: 80px;
+    height: 40px;
+}
+
+#list {
+    margin: 3px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    background-color: aqua;
+
+}
+
+#doneBtn {
+    height: 100%;
+    width: auto;
+    background-color: rgb(16, 245, 92);
+    color: rgb(24, 24, 24);    
+}
+
+.done{
+    text-decoration: line-through;
+    background-color: rgb(29, 188, 194);
+}
+
+#delBtn {
+    height: 100%;
+    width: auto;
+    background-color: crimson;
+    color: rgb(24, 24, 24);
+}
